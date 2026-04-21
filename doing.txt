@@ -1,3 +1,0 @@
- git add .
- git commit -m "day2"
- git push -u origin master
