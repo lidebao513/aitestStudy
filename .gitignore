@@ -2,5 +2,4 @@ ait_test_env/
 __pycache__/
 *.pyc
 .env
-doing.txt
-~$*.xlsx
+
