@@ -3,3 +3,5 @@
  git push -u origin master
 
  https://chat.deepseek.com/a/chat/s/d3651be3-782f-4ba8-a221-0d840460d846
+
+ .\ait_test_env\Scripts\activate
