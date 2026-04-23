@@ -1,4 +1,5 @@
 ait_test_env/
+venv/
 __pycache__/
 *.pyc
 .env
