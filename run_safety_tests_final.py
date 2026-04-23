@@ -10,7 +10,7 @@ import re
 
 # 运行 pytest 测试
 result = subprocess.run(
-    [sys.executable, "-m", "pytest", "test_safety_regression.py", "-v"],
+    [sys.executable, "-m", "pytest", "test_safety_regression.py", "-v", "-s"],
     capture_output=True,
     text=True
 )
