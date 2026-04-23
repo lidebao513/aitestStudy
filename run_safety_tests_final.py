@@ -10,9 +10,10 @@ import re
 
 # 运行 pytest 测试
 result = subprocess.run(
-    [sys.executable, "-m", "pytest", "test_safety_regression.py", "-v", "-s"],
+    [sys.executable, "-m", "pytest", "test_safety_regression.py", "-v"],
     capture_output=True,
-    text=True
+    text=True,
+    encoding='utf-8'
 )
 
 # 处理输出，将 Unicode 转义序列转换为中文
